@@ -1,0 +1,96 @@
+* {
+  font-family: 'Space Mono', monospace;  
+}
+body {
+  padding: none;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  }
+.div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #0C356A;
+  background-image: linear-gradient(to bottom, #0C356A, cyan);
+}
+.main-div{
+  margin-left: -100px;
+}
+.col {
+  padding: none;
+  flex: 1;
+}
+
+.in {
+  height: 30px;
+  width: 100px;
+  margin: 20px 50px 20px 50px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 21px;
+  border: 2px outset rgba(0,0,0,0.3);
+  outline: none;
+  background: #0174BE;
+}
+
+.btn {
+  height: 40px;
+  border-radius: 20px;
+  box-shadow: #FFC424 0px 6px 0px;
+  border: 1px black solid;
+  background: #FFC436;
+  width: 47%;
+  font-size: 16px;
+}
+
+.result {
+  padding: 5px 10px 5px 10px;
+  height: 40px;
+  border-radius: 20px;
+  background: #FFc424;
+  border: 1px outset black;
+  font-size: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#result {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.btn:active {
+  transform: translateY(4px);
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .in {
+    display: block;
+  }
+}
