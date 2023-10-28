@@ -17,7 +17,7 @@ body {
   background-image: linear-gradient(to bottom, #0C356A, cyan);
 }
 .main-div{
-  margin-left: -100px;
+  margin-left: 0px;
 }
 .col {
   padding: none;
