@@ -9,7 +9,7 @@ const in8 = document.getElementById('in-8')
 let sgpa = 0;
 
 function calculate() {
-console.log(in1)
+console.log(process.env.API_KEY)
   
   sgpa += (Math.ceil(in1.value/10)+Math.ceil(in2.value/10))*4;
   sgpa += (Math.ceil(in3.value/10)+Math.ceil(in4.value/10)+Math.ceil(in5.value/10))*3
